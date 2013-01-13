@@ -1,0 +1,9 @@
+# requirements/prod.txt
+-r common.txt
+
+psycopg2==2.4.5
+gunicorn==0.14.6
+django-storages==1.1.4
+boto==2.6.0
+django-database-email-backend==0.2.1
+django-sslify==0.2
